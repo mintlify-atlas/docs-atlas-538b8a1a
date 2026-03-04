@@ -1,0 +1,105 @@
+{
+  "projectType": "saas",
+  "projectName": "WAL",
+  "projectDescription": "Location-based social network for iOS and Android built with React Native",
+  "theme": "palm",
+  "primaryColor": "#94cb04",
+  "lightColor": "#545454",
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "setup"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/locations",
+              "features/live-streaming",
+              "features/chat",
+              "features/posts",
+              "features/notifications"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/architecture",
+              "development/state-management",
+              "development/navigation",
+              "development/backend-integration"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/environment",
+              "configuration/supabase",
+              "configuration/expo"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Hooks",
+            "pages": [
+              "api/hooks/authentication",
+              "api/hooks/location",
+              "api/hooks/chat",
+              "api/hooks/feeds"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "api/components/feed-item",
+              "api/components/camera",
+              "api/components/chat"
+            ]
+          },
+          {
+            "group": "State",
+            "pages": [
+              "api/state/app",
+              "api/state/auth",
+              "api/state/chat"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Location-based posting and content discovery",
+    "Live video streaming with LiveKit",
+    "Real-time chat and messaging",
+    "Push notifications with Expo",
+    "Camera integration for photo and video capture",
+    "Friend connections and social interactions",
+    "Multi-language support (i18n)",
+    "Supabase authentication and storage"
+  ],
+  "publicApiSurface": [
+    "useAuth",
+    "useLocation",
+    "useFeed",
+    "useMessageRoom",
+    "useGoLive",
+    "useLiveUser",
+    "useLocationFeedPaginated",
+    "useUserChats",
+    "apiClient",
+    "supabase"
+  ]
+}
